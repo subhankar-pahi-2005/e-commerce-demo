@@ -1,29 +1,29 @@
 ecommerce-app/
-│
-├── assets/                        # Folder for CSS, JS, and images
+├── assets/
 │   ├── css/
+│   │   └── style.css
 │   ├── js/
+│   │   └── script.js
 │   └── images/
-│
-├── config/                        # Database configuration
+├── config/
 │   └── db.php
-│
-├── controllers/                   # PHP logic for handling requests
+├── controllers/
 │   ├── customerController.php
 │   └── retailerController.php
-│
-├── models/                        # PHP models for database interaction
+├── models/
 │   ├── customerModel.php
 │   ├── retailerModel.php
 │   └── productModel.php
-│
-├── views/                         # HTML views (user interface)
-│   ├── header.php                 # Common header
-│   ├── footer.php                 # Common footer
-│   ├── customer_register.php     # Customer registration page
-│   ├── retailer_register.php     # Retailer registration page
-│   ├── product_search.php         # Search products by location
-│   └── cart.php                   # Cart page
-│
-├── index.php                      # Main entry point (home page)
-└── .htaccess                      # URL rewrite and configuration for Apache server
+├── views/
+│   ├── header.php
+│   ├── footer.php
+│   ├── customer_register.php
+│   ├── retailer_register.php
+│   ├── product_search.php
+│   ├── cart.php
+├── index.php
+├── register_customer.php
+├── register_retailer.php
+├── search_products.php
+├── add_to_cart.php
+└── .htaccess
